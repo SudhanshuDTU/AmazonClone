@@ -16,6 +16,7 @@ res.send('hi');
 });
 
 //middleware
+app.use(express.json());
 app.use(AuthRouter);
 
 //connections
